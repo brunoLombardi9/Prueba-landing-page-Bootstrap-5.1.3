@@ -1,0 +1,22 @@
+body{
+color: $bodyColor;
+line-height: 1.7;
+font-family: 'Sora', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.display-4{
+  color: $darkColor;
+  color:green;
+}
+
+a{
+  color: $darkColor;
+  text-decoration: none;
+}
+
+.hero{
+  background-image: url(../imagenes/truckCover.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
