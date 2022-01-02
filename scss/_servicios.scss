@@ -17,7 +17,7 @@ h2 {
 
 .cardEffect:hover {
   box-shadow: none;
-  transform: translateY(-5px);
+  transform: translateY(5px);
 }
 
 .icon svg {
@@ -58,9 +58,9 @@ h2 {
 // .servicios p{
 //
 //
-.servicios:hover .iconBox{
+.servicios:hover .iconBox {
   background-color: white;
-color: $primary
+color: $primary;
 }
 
 .servicios:hover{
