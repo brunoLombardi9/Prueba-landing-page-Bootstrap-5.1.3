@@ -7934,3 +7934,63 @@ img {
 
 .trabajos:hover img {
   transform: scale(1.1); }
+
+#precios ul li {
+  list-style: none;
+  display: flex;
+  font-size: 1.1rem; }
+
+#precios svg {
+  color: green;
+  margin-right: 1rem; }
+
+.precios {
+  display: flex;
+  flex-direction: column; }
+
+.miembro img {
+  border-radius: 10rem; }
+
+.iconoRedes {
+  display: flex;
+  justify-content: center; }
+
+.iconoRedes svg {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  color: #0d6efd;
+  margin-right: 0.8rem; }
+
+.iconoRedes svg:hover {
+  color: #000; }
+
+.blogPost a {
+  color: #21252f; }
+
+.blogPost a:hover {
+  color: #0d6efd; }
+
+form .form-control {
+  border: transparent;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.2); }
+
+footer {
+  background-color: #21252f; }
+
+.logoFooter {
+  width: 100px;
+  height: 100px; }
+
+footer h5, footer .h5 {
+  color: white; }
+
+footer ul li {
+  list-style: none; }
+
+footer ul li a {
+  color: grey; }
+
+footer ul li a:hover {
+  color: #0d6efd; }

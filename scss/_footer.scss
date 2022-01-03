@@ -1,0 +1,25 @@
+footer{
+  background-color: $darkColor;
+}
+
+.logoFooter{
+  width: 100px;
+  height: 100px;
+
+}
+
+footer h5{
+  color: white;
+}
+
+footer ul li{
+list-style: none;
+}
+
+footer ul li a{
+  color: grey;
+}
+
+footer ul li a:hover{
+  color: $blue;
+}

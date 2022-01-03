@@ -1,0 +1,19 @@
+.miembro img {
+  border-radius: 10rem;
+}
+
+.iconoRedes {
+  display: flex;
+  justify-content: center;
+}
+
+.iconoRedes svg {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  color: $blue;
+  margin-right: 0.8rem;}
+
+.iconoRedes svg:hover{
+  color: $black;
+}

@@ -1,0 +1,15 @@
+#precios ul li{
+  list-style: none;
+display: flex;
+font-size: 1.1rem;
+}
+
+#precios svg{
+  color: $primary;
+  margin-right: 1rem;
+}
+
+.precios{
+  display: flex;
+  flex-direction: column;
+}
