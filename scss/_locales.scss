@@ -36,7 +36,7 @@ h2 {
   color: white;
 }
 
-.servicios{
+.locales{
   position: relative;
   z-index: 2;
   overflow: hidden;
@@ -58,12 +58,12 @@ h2 {
 // .servicios p{
 //
 //
-.servicios:hover .iconBox {
+.locales:hover .iconBox {
   background-color: white;
 color: $primary;
 }
 
-.servicios:hover{
+.locales:hover{
   background-color: $primary;
   color:white;
 }

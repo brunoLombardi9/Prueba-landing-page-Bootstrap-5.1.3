@@ -7810,6 +7810,16 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.imagenLogo {
+  width: 50px; }
+
+.nav-link {
+  font-weight: 700; }
+
+.btn {
+  border-radius: 2rem;
+  margin: 0.5rem; }
+
 body {
   color: #888;
   line-height: 1.7;
@@ -7841,15 +7851,80 @@ a {
   background-color: rgba(21, 20, 51, 0.8);
   z-index: -1; }
 
-.imagenLogo {
-  width: 50px; }
+.col-img {
+  background-image: url("../imagenes/skateSantaCruz.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 500px; }
 
-.nav-link {
-  font-weight: 700; }
+#nosotros .iconBox {
+  flex: none; }
 
-.btn {
-  border-radius: 2rem;
-  margin: 0.5rem; }
+img {
+  width: 100%; }
+
+.contenedorMarca {
+  position: relative;
+  overflow: hidden; }
+
+.contenedorMarca .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(21, 20, 51, 0.8);
+  padding: 2rem;
+  display: flex;
+  align-items: flex-end;
+  transition: all 0.4s ease;
+  opacity: 0; }
+
+.contenedorMarca img {
+  transition: all 0.4s ease;
+  height: 400px; }
+
+.contenedorMarca:hover .overlay {
+  opacity: 1; }
+
+.contenedorMarca:hover img {
+  transform: scale(1.1); }
+
+#skates ul li {
+  list-style: none;
+  display: flex;
+  font-size: 1.1rem; }
+
+#skates svg {
+  color: green;
+  margin-right: 1rem; }
+
+.precios {
+  display: flex;
+  flex-direction: column; }
+
+.miembro img {
+  border-radius: 10rem; }
+
+.iconoRedes {
+  display: flex;
+  justify-content: center; }
+
+.iconoRedes svg {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  color: #0d6efd;
+  margin-right: 0.8rem; }
+
+.iconoRedes svg:hover {
+  color: #000; }
+
+.blogPost a {
+  color: #21252f; }
+
+.blogPost a:hover {
+  color: #0d6efd; }
 
 section {
   padding-top: 6rem;
@@ -7883,93 +7958,18 @@ h2, .h2 {
   justify-content: center;
   color: white; }
 
-.servicios {
+.locales {
   position: relative;
   z-index: 2;
   overflow: hidden; }
 
-.servicios:hover .iconBox {
+.locales:hover .iconBox {
   background-color: white;
   color: green; }
 
-.servicios:hover {
+.locales:hover {
   background-color: green;
   color: white; }
-
-.col-img {
-  background-image: url("../imagenes/skateSantaCruz.jpg");
-  background-position: center;
-  background-size: cover;
-  min-height: 500px; }
-
-#caracteristicas .iconBox {
-  flex: none; }
-
-img {
-  width: 100%; }
-
-.trabajos {
-  position: relative;
-  overflow: hidden; }
-
-.trabajos .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(21, 20, 51, 0.8);
-  padding: 2rem;
-  display: flex;
-  align-items: flex-end;
-  transition: all 0.4s ease;
-  opacity: 0; }
-
-.trabajos img {
-  transition: all 0.4s ease;
-  height: 400px; }
-
-.trabajos:hover .overlay {
-  opacity: 1; }
-
-.trabajos:hover img {
-  transform: scale(1.1); }
-
-#precios ul li {
-  list-style: none;
-  display: flex;
-  font-size: 1.1rem; }
-
-#precios svg {
-  color: green;
-  margin-right: 1rem; }
-
-.precios {
-  display: flex;
-  flex-direction: column; }
-
-.miembro img {
-  border-radius: 10rem; }
-
-.iconoRedes {
-  display: flex;
-  justify-content: center; }
-
-.iconoRedes svg {
-  width: 2rem;
-  height: 2rem;
-  display: flex;
-  color: #0d6efd;
-  margin-right: 0.8rem; }
-
-.iconoRedes svg:hover {
-  color: #000; }
-
-.blogPost a {
-  color: #21252f; }
-
-.blogPost a:hover {
-  color: #0d6efd; }
 
 form .form-control {
   border: transparent;
@@ -7980,8 +7980,8 @@ footer {
   background-color: #21252f; }
 
 .logoFooter {
-  width: 100px;
-  height: 100px; }
+  width: 150px;
+  height: 150px; }
 
 footer h5, footer .h5 {
   color: white; }
@@ -7993,4 +7993,4 @@ footer ul li a {
   color: grey; }
 
 footer ul li a:hover {
-  color: #0d6efd; }
+  color: white; }
